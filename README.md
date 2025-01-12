@@ -13,7 +13,7 @@ ForumOne is a Q&A forum website where users may post any questions they have or 
 
 ### 🔧 Tech Stack:
 - **Frontend**: React.js, JavaScript, HTML, CSS
-- **Backend**: Node.js, Express.js, Axios.js
+- **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose)
 
 ### 🚀 Running the project:
@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
    git clone https://github.com/anthonyz77/ForumOne.git
    
-3. The required libraries are listed in client and server package.json. Please Install the dependencies for both the client and the server:
+3. The required dependencies are listed in client and server package.json. Install the dependencies for both the client and the server:
    npm install
 
 4. Start the mongoDB database and start mongosh

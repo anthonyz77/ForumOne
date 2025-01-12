@@ -20,22 +20,22 @@ ForumOne is a Q&A forum website where users may post any questions they have or 
 To run the project locally, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/anthonyz77/ForumOne.git
+   - git clone https://github.com/anthonyz77/ForumOne.git
    
 3. The required dependencies are listed in client and server package.json. Install the dependencies for both the client and the server:
-   npm install
+   - npm install
 
 4. Start the mongoDB database and start mongosh
 
 5. Start the backend server:
-   node server.js
+   - node server.js
   
 6. Start client side webpage:
-   npm start
+   - npm start
 
 7. To populate the database with an admin user, run the command:
 
-    node server/init.js mongodb://127.0.0.1:27017/fake_so admin@fake_so.com 123
+    - node server/init.js mongodb://127.0.0.1:27017/fake_so admin@fake_so.com 123
 
 The login email will be admin@fake_so.com and the password will be 123
 
